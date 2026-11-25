@@ -1,0 +1,3 @@
+GA-03 disposable qualification fixture
+Native source validation and independent federation planning only.
+No release, device or hosted CI authority.

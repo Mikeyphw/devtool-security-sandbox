@@ -1,0 +1,11 @@
+[project]
+runner = "command"
+
+[federation]
+schema = 1
+
+[federation.repositories.devtool]
+path = "~/Code/.worktrees/devtool/ga03-a010a4e32631"
+
+[federation.workflows.compatibility]
+steps = [{id = "syntax-contract", ref = "devtool::devtool::job:source-syntax"}]
